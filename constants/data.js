@@ -1,12 +1,17 @@
 const userData = {
   githubUsername: "Saravanpink",
-  name: "Dummy",
-  designation: "Full-Stack Developer",
+  name: "DEMO",
+  designation: "Developer",
   avatarUrl: "/avatar.png",
   email: "Dummy@gmail.com",
   phone: "+91 9876543210",
   address: "Dummy, Rajasthan, India.",
   projects: [
+    {
+      title: "Demo",
+      link: "https://tailwindmasterkit.com",
+      imgUrl: "/tmk.jpg",
+    },
     {
       title: "Tailwind Master Kit",
       link: "https://tailwindmasterkit.com",
@@ -46,7 +51,9 @@ const userData = {
   about: {
     title:
       "I'm a software developer that loves building productsLorem Ipsum is simply dummy text",
-    description: [
+      role: "S/w dev",
+      qwe: "ashdbksad l",
+          description: [
       `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
       
     ],
@@ -54,6 +61,13 @@ const userData = {
     currentProjectUrl: "https://tailwindmasterkit.com",
   },
   experience: [
+  {
+      title: "Software Developer",
+      company: "Pink Lemonade",
+      year: "2022",
+      companyLink: "https://www.pinklemonade.in/",
+      desc: "Lorem Ipsum is simply dummy ",
+    },
     {
       title: "Software Developer",
       company: "Pink Lemonade",
@@ -98,6 +112,7 @@ const userData = {
     linkedin: "https://linkedin.com/in/Dummy",
     github: "https://github.com/Dummy",
     facebook: "https://facebook.com/",
+    reddit: "sadsad",
   },
 };
 
